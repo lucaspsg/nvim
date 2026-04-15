@@ -9,6 +9,6 @@ return {
   },
   lazy = false,
   keys = {
-    { '<leader>e', '<cmd>Neotree toggle<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<leader>e', '<cmd>Neotree reveal toggle<CR>', desc = 'NeoTree reveal', silent = true },
   },
 }

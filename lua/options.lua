@@ -20,6 +20,13 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
+-- Default indentation: 2 spaces
+vim.o.tabstop = 2
+vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
+vim.o.expandtab = true
+vim.o.smartindent = true
+
 -- Enable break indent
 vim.o.breakindent = true
 
